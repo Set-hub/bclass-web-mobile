@@ -1,7 +1,7 @@
 fetch("http://bclassserver.free.nf/connect.php", {
   mode: 'no-cors',
 }).then(response => {return response.text()}).then(data => {alert(data)}).catch(console.log(onerror))
-
+alert("hello");
 
 
 console.log('Hello World!');
